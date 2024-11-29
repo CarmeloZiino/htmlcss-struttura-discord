@@ -1,8 +1,28 @@
 
+header {
+    text-align: center;
+    color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
+
+}
 
 .container-nav {
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
 
 }
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+
+} 
+
