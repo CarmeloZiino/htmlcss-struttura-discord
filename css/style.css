@@ -1,53 +1,82 @@
-
 /* Css Header */
 
 header {
-    text-align: center;
-    color: white;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  text-align: center;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-
 .container-nav {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .container-header {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    flex-direction: column;
-    gap: 15px;
-    width: 400px;
-
-} 
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+}
 
 /* Css Main */
 
 main {
-    height: 2000px;
+  height: 2000px;
 }
 
-.container-main-1{
-    height: 25%;
+/* Css Sezioni Principali */
+.container-main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-main-2{
-    background-color: yellow;
-    height: 25%;
+.container-main-2 {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-main-3{
+.container-main-3 {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main-4 {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.block-1 , .block-2 {
+    height: 80%;
+    width: 30%;
+}
+
+.block-1 {
+    background-color: rgb(165, 42, 153);
+}
+.block-2 {
+    background-color: rgb(60, 93, 237);
+}
+
+.block-single{
     background-color: green;
-    height: 25%;
-}
-
-.container-main-4{
-    background-color: orange;
-    height: 25%;
+    height: 80%;
+    width: 60%;
 }
