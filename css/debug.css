@@ -3,5 +3,17 @@
 }
 
 div, header, body, footer, section, article, aside, nav {
-    outline: 2px solid red; /* Evidenzia in rosso i principali contenitori */
+    outline: 2px solid black; /* Evidenzia in rosso i principali contenitori */
+}
+
+
+/* Background-color per visionare i blocchi */
+header{
+    background-color: pink;
+}
+main{
+    background-color: lightcoral;
+}
+footer{
+    background-color: blue;
 }

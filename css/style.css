@@ -1,15 +1,8 @@
-header{
-    background-color: pink;
-}
-main{
-    background-color: lightcoral;
-}
-footer{
-    background-color: blue;
-}
+
 
 
 .container-nav {
     display: flex;
-justify-content: space-between;
+justify-content: space-around;
+
 }
