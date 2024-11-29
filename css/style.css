@@ -98,8 +98,8 @@ footer {
 }
 
 .social {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .first {
@@ -108,7 +108,6 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 10px;
-
 }
 
 .second {
@@ -117,18 +116,21 @@ footer {
   justify-content: space-between;
 }
 
-.first >* {
-    width: 100%;
+.first > * {
+  width: 100%;
 }
 
-.link-social , .prodotto , .compagnia , .risorse , .norme {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.link-social,
+.prodotto,
+.compagnia,
+.risorse,
+.norme {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .social {
-    display: flex;
-    gap: 5px;
-
+  display: flex;
+  gap: 5px;
 }
