@@ -46,7 +46,7 @@ main {
 }
 
 .container-main-3 {
-  background-color: green;
+  background-color: rgb(19, 191, 19);
   height: 25%;
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@ main {
 }
 
 .block-single {
-  background-color: green;
+  background-color: rgb(103, 113, 103);
   height: 80%;
   width: 60%;
 }
@@ -112,11 +112,23 @@ footer {
 }
 
 .second {
-  width: 600px;
+  width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .first >* {
     width: 100%;
+}
+
+.link-social , .prodotto , .compagnia , .risorse , .norme {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 5px;
+
 }
