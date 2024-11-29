@@ -1,4 +1,6 @@
 
+/* Css Header */
+
 header {
     text-align: center;
     color: white;
@@ -6,9 +8,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
 }
+
 
 .container-nav {
     display: flex;
@@ -26,3 +27,27 @@ header {
 
 } 
 
+/* Css Main */
+
+main {
+    height: 2000px;
+}
+
+.container-main-1{
+    height: 25%;
+}
+
+.container-main-2{
+    background-color: yellow;
+    height: 25%;
+}
+
+.container-main-3{
+    background-color: green;
+    height: 25%;
+}
+
+.container-main-4{
+    background-color: orange;
+    height: 25%;
+}
