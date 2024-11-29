@@ -1,3 +1,8 @@
+* {
+  font-family: "gg_sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
 /* Css Header */
 
 header {
@@ -9,9 +14,12 @@ header {
   justify-content: space-around;
 }
 
+/* Css Contenitori Header */
 .container-nav {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+
 }
 
 .container-header {
@@ -22,6 +30,19 @@ header {
   gap: 15px;
   width: 400px;
 }
+
+/* CSS Link Superiori */
+.Link {
+    display: flex;
+    gap: 20px;
+}
+
+.Link >* , .login> *{
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+}
+
 
 /* Css Main */
 
@@ -38,7 +59,7 @@ main {
 }
 
 .container-main-2 {
-  background-color: yellow;
+  background-color: #f5f5f5;
   height: 25%;
   display: flex;
   justify-content: center;
@@ -46,7 +67,6 @@ main {
 }
 
 .container-main-3 {
-  background-color: rgb(19, 191, 19);
   height: 25%;
   display: flex;
   justify-content: center;
@@ -54,13 +74,14 @@ main {
 }
 
 .container-main-4 {
-  background-color: orange;
+  background-color: #f5f5f5;
   height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Css Blocchi Interni */
 .block {
   height: 400px;
   width: 100%;
@@ -91,15 +112,20 @@ main {
 footer {
   height: 400px;
   display: flex;
+  background-color: #23272a;
   color: white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
+/* Css Blocco Principale */
 .social {
   display: flex;
   flex-direction: row;
+  display: flex;
+  gap: 5px;
 }
 
 .first {
@@ -107,17 +133,12 @@ footer {
   width: 80%;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-}
-
-.second {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .first > * {
-  width: 100%;
+  width: 20%;
+ 
 }
 
 .link-social,
@@ -130,7 +151,20 @@ footer {
   gap: 10px;
 }
 
-.social {
-  display: flex;
-  gap: 5px;
+.first-row {
+  color: #587ad6;
 }
+
+/* Css Blocco Secondario */
+.hr {
+  background-color: #3c4561;
+  width: 80%;
+}
+
+.second {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
